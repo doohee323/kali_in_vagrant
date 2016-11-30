@@ -15,12 +15,12 @@ vagrant ssh
 exit 0
 
 # export vm image
-$ vagrant package --output /home/path_to_new/packagename.box
+$ vagrant package --output ./box/kali_in_vagrant.box
 
 # import vm image
-$ vagrant box add mybox /home/path_to_new/packagename.box
+$ vagrant box add kali_in_vagrant ./box/kali_in_vagrant.box
 $ vagrant box list
-$ vagrant init mybox
+$ vagrant init kali_in_vagrant
 $ vagrant up
 $ vagrant ssh
 

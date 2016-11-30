@@ -29,6 +29,8 @@ ln -s /vagrant/discover /opt/discover
 cd /opt/discover/
 ./update.sh
 
+chmod -Rf 777 /usr/share
+
 # ./discover.sh
 
 exit 0

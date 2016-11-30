@@ -7,15 +7,27 @@ You can change the git url in /kali_in_vagrant/scripts/kali.sh. And when you cha
 
 -. Build
 ```
+	cd kali_in_vagrant
 	bash build.sh
 	
 ```
 -. Run
 ```
+	cd kali_in_vagrant
 	vagrant ssh
 	
 	cd /opt/discover
 	
 	bash discover.sh
 	
+```
+-. Result
+```
+	# in host 
+	/kali_in_vagrant/data/topzone.biz
+	/kali_in_vagrant/.recon-ng/workspaces/topzone.biz
+	
+	# in VM
+	/vagrant/data/google.com
+	/vagrant/.recon-ng/workspaces/google.com
 ```
