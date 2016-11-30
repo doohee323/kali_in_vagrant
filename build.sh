@@ -13,3 +13,14 @@ vagrant up
 vagrant ssh
 
 exit 0
+
+# export vm image
+$ vagrant package --output /home/path_to_new/packagename.box
+
+# import vm image
+$ vagrant box add mybox /home/path_to_new/packagename.box
+$ vagrant box list
+$ vagrant init mybox
+$ vagrant up
+$ vagrant ssh
+
