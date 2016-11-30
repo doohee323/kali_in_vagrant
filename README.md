@@ -1,7 +1,17 @@
 Run discover in Kali-Linux on vagrant
 =====================================
 
--. requirements
+-. Build
 ```
-
+	bash build.sh
+	
+```
+-. Run
+```
+	vagrant ssh
+	
+	cd /opt/discover
+	
+	bash discover.sh
+	
 ```
