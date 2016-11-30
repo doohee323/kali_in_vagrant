@@ -23,7 +23,9 @@ touch /etc/apt/sources.list
 echo 'deb http://http.kali.org/kali kali-rolling main contrib non-free' >> /etc/apt/sources.list
 apt-get update
 
+# git clone https://github.com/leebaird/discover /opt/discover/  
 git clone https://github.com/n0needt0/discover /vagrant/discover/
+
 ln -s /vagrant/discover /opt/discover
 
 cd /opt/discover/

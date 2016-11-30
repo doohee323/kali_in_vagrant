@@ -31,3 +31,10 @@ You can change the git url in /kali_in_vagrant/scripts/kali.sh. And when you cha
 	/vagrant/data/google.com
 	/vagrant/.recon-ng/workspaces/google.com
 ```
+-. Change discovery in host
+```
+	/kali_in_vagrant/discover> git push origin master
+```
+
+
+
